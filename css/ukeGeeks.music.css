@@ -170,7 +170,8 @@
 .ugsChords code strong {
 	left:-4px;
 	position:absolute;
-	top:-1.7em;
+	/* top:-1.7em;*/
+	top: -2em;
 }
 .ugsChords code em {
 	color:#d20;
@@ -387,4 +388,3 @@
   font-size: 0.8em !important;
   text-transform: capitalize;
 }
-
