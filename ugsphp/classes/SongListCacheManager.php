@@ -11,7 +11,7 @@ class SongListCacheManager {
 	// -----------------------------------------
 	// PUBLIC METHODS
 	// -----------------------------------------
-	function SongListCacheManager(){
+	function __construct(){
 		$this->cache = new SimpleCache();
 		$this->cache->setCacheDir(Config::$AppDirectory . 'cache/');
 	}
