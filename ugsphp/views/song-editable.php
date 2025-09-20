@@ -95,7 +95,7 @@ $editDlgCssClassName = $model->IsUpdateAllowed ? '' : 'isHidden';
     <?php } ?>
 	</ul>
 </section>
-<? } ?>
+<?php } ?>
 <!-- LAYOUT OPTIONS -->
 <aside class="arrowBox layoutOptions" id="layoutOptions">
 	<fieldset class="arrowBoxContent enablePseudoSelects">
