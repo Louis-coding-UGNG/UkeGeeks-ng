@@ -167,7 +167,7 @@ function BuildSongListByCategory($SongList)
 		<input class="quickSearch" id="quickSearch" autocomplete="off" type="text" placeholder="<?php echo Lang::Get('search_bar_placeholder')?>" />
   </div>
   <div class='SongListSortMenu'>
-    <? echo Lang::Get('sort_by').' : '.'<a href="'.Ugs::MakeUri(Actions::Songbook).'">'.Lang::Get('artist').'</a> &mdash; <a href="'.Ugs::MakeUri(Actions::SongbookSorted, 'category').'">'.Lang::Get('category').'</a> &mdash; <a href="'.Ugs::MakeUri(Actions::SongbookSorted, 'title').'">'.Lang::Get('title').'</a>'; ?>
+    <?php echo Lang::Get('sort_by').' : '.'<a href="'.Ugs::MakeUri(Actions::Songbook).'">'.Lang::Get('artist').'</a> &mdash; <a href="'.Ugs::MakeUri(Actions::SongbookSorted, 'category').'">'.Lang::Get('category').'</a> &mdash; <a href="'.Ugs::MakeUri(Actions::SongbookSorted, 'title').'">'.Lang::Get('title').'</a>'; ?>
   </div>
 	<div class="songList">
 		<?php
